@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F1F1F1;
+}
+ul{
+    display: flex;
+    list-style-type:none
+    ;
+}
+.navdroit{
+    display: flex;
+     justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    color: black;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+position: fixed;
+z-index: 1;
+   
+}
+.navgauche{
+     display: flex;
+     justify-content: space-evenly;
+    align-items: center;
+    color: #054C73;
+        font-size: 1.5rem;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.img1{
+    background-image: url("scandinavian-interior-mockup-wall-decal-background\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 48rem;
+}
+
+.carre{
+    width: 40%;
+    background-color: #DFE9F4;
+    color: white;
+    height: 18rem;
+    margin: 10rem;
+    margin-top: 20rem;
+    border-radius: 1REM;
+    
+}
+.control{
+display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.New{
+    color: black;
+  margin: 1rem;
+  
+  margin-top: 2rem;
+  margin-left: 2rem;
+    width: 100%;
+    font-size: 1.5rem;
+}
+.Discover{
+    color: #054C73;
+    
+  margin: 1rem;
+  
+  margin-left: 2rem;
+    font-size: 2rem;
+}
+.Lorem{
+    color: black;
+    
+  margin: 1rem;
+  
+  margin-left: 2rem;
+    font-size: 1rem;
+}
+.Buybtn{
+    background-color: #054C73 ;
+    color: white;
+    width: 30%;
+    height: 3rem;
+    border-radius: 1rem;
+  margin: 1rem;
+  
+  margin-left: 2rem;
+  border: none;
+}
