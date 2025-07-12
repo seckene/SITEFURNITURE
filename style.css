@@ -3,6 +3,8 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
 body{
     background-color: #F1F1F1;
 }
@@ -46,7 +48,7 @@ z-index: 1;
     width: 40%;
     background-color: #DFE9F4;
     color: white;
-    height: 18rem;
+    height: 19rem;
     margin: 10rem;
     margin-top: 20rem;
     border-radius: 1REM;
@@ -62,6 +64,8 @@ display: flex;
     color: black;
   margin: 1rem;
   
+    font-family: "Roboto";
+  
   margin-top: 2rem;
   margin-left: 2rem;
     width: 100%;
@@ -69,6 +73,7 @@ display: flex;
 }
 .Discover{
     color: #054C73;
+    font-family: "Roboto";
     
   margin: 1rem;
   
@@ -78,6 +83,7 @@ display: flex;
 .Lorem{
     color: black;
     
+    font-family: "Roboto";
   margin: 1rem;
   
   margin-left: 2rem;
@@ -93,4 +99,42 @@ display: flex;
   
   margin-left: 2rem;
   border: none;
+}
+.troisblock{
+    display: flex;
+    justify-content: space-evenly;
+        background-color: #ECECEB;
+
+    height: 4rem;
+}
+.block{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-evenly;
+}
+.flex2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.titre{
+    font-size:1.5rem;
+    font-family: "Roboto";
+}
+
+.espaces{
+    height: 10rem;
+}
+h1{
+    font-family:"Roboto" ;
+}
+.les33{
+    margin-bottom: 1rem;
 }
