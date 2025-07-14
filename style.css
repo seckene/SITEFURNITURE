@@ -138,9 +138,47 @@ h1{
 }
 .les33{
     margin-bottom: 1rem;
+    
+    cursor: pointer;
 }
 
 .les33:hover{
-    opacity: 10rem;
-    cursor: pointer;
+    
+  transform: translateY(-5px);
+  box-shadow: 0 25px 30px rgba(0, 0, 0, 0.2)
+}
+
+footer{
+    background-color: #054C73;
+    height: 15rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.footerglockgauche{
+    margin: 5rem;
+   
+    
+}
+.footerglockdroit{
+    margin: 5rem;
+    
+}
+h2{
+    font-size: 1.5rem;
+    color: white;
+    font-family: "roboto";
+}
+
+.lorem2{
+    color: white;
+    font-size: 0.8rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.recadrer{
+    height: 8rem;
+    margin-top: 1rem;
 }
