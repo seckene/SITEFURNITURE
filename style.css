@@ -183,3 +183,16 @@ h2{
     height: 8rem;
     margin-top: 1rem;
 }
+
+
+@media (min-width: 1400px) and (max-width: 1800px) {
+
+
+    
+.img1{
+    background-image: url("scandinavian-interior-mockup-wall-decal-background\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 55rem;
+}
+  }
