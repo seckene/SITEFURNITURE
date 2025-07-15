@@ -69,7 +69,7 @@ display: flex;
   
   margin-top: 2rem;
   margin-left: 2rem;
-    width: 100%;
+    width: 50%;
     font-size: 1.5rem;
 }
 .Discover{
@@ -99,6 +99,15 @@ display: flex;
   margin: 1rem;
   
   margin-left: 2rem;
+  border: none;
+}
+.Buybtn2{
+    background-color: white ;
+    color: #054C73;
+    width: 30%;
+    height: 3rem;
+    border-radius: 1rem;
+
   border: none;
 }
 .troisblock{
@@ -133,6 +142,7 @@ display: flex;
 .espaces{
     height: 10rem;
 }
+
 h1{
     font-family:"Roboto" ;
 }
@@ -145,12 +155,12 @@ h1{
 .les33:hover{
     
   transform: translateY(-5px);
-  box-shadow: 0 25px 30px rgba(0, 0, 0, 0.2)
 }
 
 footer{
     background-color: #054C73;
-    height: 15rem;
+    
+    height: 20rem;
     display: flex;
     
     justify-content:space-evenly;
@@ -180,10 +190,23 @@ h2{
 }
 
 .recadrer{
-    height: 8rem;
+    height: 10rem;
     margin-top: 1rem;
 }
 
+.Beauty{
+    margin-top: 0rem;
+}
+.paye{
+    display: none;
+   
+
+}
+.paye2{
+    display: none;
+   
+
+}
 
 @media (min-width: 1400px) and (max-width: 2000px) {
 
@@ -196,7 +219,7 @@ h2{
     height: 55rem;
 }
 .carre{
-    width: 30%;
+    width: 40%;
     background-color: #DFE9F4;
     color: white;
     height: 19rem;
@@ -205,4 +228,556 @@ h2{
     border-radius: 1REM;
     
 }
+.paye{
+    display: none;
+   
+
+}
   }
+
+  
+
+@media (min-width:1000px) and (max-width:1330px) {
+
+    footer{
+    background-color: #054C73;
+    
+    height: 37rem;
+    display: block;
+    
+    justify-content:center;
+    align-items: center;
+}
+.footerglockgauche{
+    margin: 5rem;
+    margin-bottom: 0rem;
+   align-items: center;
+}
+.footerglockdroit{
+    margin: 5rem;
+    
+    display: block;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.recadrer{
+    height: 9rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+.lorem2{
+    color: white;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    color: white;
+    font-family: "roboto";
+}
+.madarila{
+    margin-top: 2rem;
+}
+.Buybtn2{
+    background-color: white ;
+    color: #054C73;
+    width: 20%;
+    height: 3rem;
+    border-radius: 1rem;
+
+  border: none;
+}
+.espaces3{
+    height: 8rem;
+}
+.carre{
+    margin: 0rem;
+    
+    width: 45%;
+ margin-top: 20rem;
+ margin-right: 2rem;
+}
+.les33{
+    margin-bottom: 1rem;
+    height: 23rem;
+    cursor: pointer;
+}
+.paye{
+    display: none;
+   
+
+}
+.paye2{
+    display: none;
+   
+
+}
+
+}
+@media (min-width:800px) and (max-width:999px) {
+
+    footer{
+    background-color: #054C73;
+    
+    height: 37rem;
+    display: block;
+    
+    justify-content:center;
+    align-items: center;
+}
+.footerglockgauche{
+    margin: 5rem;
+    margin-bottom: 0rem;
+   align-items: center;
+}
+.footerglockdroit{
+    margin: 5rem;
+    
+    display: block;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.recadrer{
+    height: 9rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+.lorem2{
+    color: white;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    color: white;
+    font-family: "roboto";
+}
+.madarila{
+    margin-top: 2rem;
+}
+.Buybtn2{
+    background-color: white ;
+    color: #054C73;
+    width: 20%;
+    height: 3rem;
+    border-radius: 1rem;
+
+  border: none;
+}
+.espaces3{
+    height: 8rem;
+}
+.carre{
+    margin: 0rem;
+    
+    width: 60%;
+ margin-top: 18rem;
+ margin-right: 1rem;
+}
+.les33{
+    margin-bottom: 1rem;
+    height: 20rem;
+    cursor: pointer;
+}
+.paye{
+    display: none;
+   
+
+}
+.paye2{
+    display: none;
+   
+
+}
+}
+@media (min-width:500px) and (max-width:799px) {
+
+    footer{
+    background-color: #054C73;
+    
+    height: 37rem;
+    display: block;
+    
+    justify-content:center;
+    align-items: center;
+}
+.footerglockgauche{
+    margin: 5rem;
+    margin-bottom: 0rem;
+   align-items: center;
+}
+.footerglockdroit{
+    margin: 5rem;
+    
+    display: block;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.recadrer{
+    height: 7rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+.lorem2{
+    color: white;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    color: white;
+    font-family: "roboto";
+}
+.madarila{
+    margin-top: 2rem;
+}
+.Buybtn2{
+    background-color: white ;
+    color: #054C73;
+    width: 20%;
+    height: 3rem;
+    border-radius: 1rem;
+
+  border: none;
+}
+.espaces3{
+    height: 8rem;
+}
+.carre{
+    margin: 0rem;
+    
+    width: 65%;
+ margin-top: 18rem;
+ margin-right: 1rem;
+}
+.troisblock{
+    display: flex;
+    justify-content: space-evenly;
+        background-color: #ECECEB;
+
+    height: 4rem;
+}
+.les33{
+    margin-bottom: 1rem;
+    height: 17rem;
+    cursor: pointer;
+}
+.paye{
+    display: none;
+   
+
+}
+.paye2{
+    display: none;
+   
+
+}
+
+}
+
+@media (min-width:670px) and (max-width:799px) {
+
+    footer{
+    background-color: #054C73;
+    
+    height: 37rem;
+    display: block;
+    
+    justify-content:center;
+    align-items: center;
+}
+.footerglockgauche{
+    margin: 5rem;
+    margin-bottom: 0rem;
+   align-items: center;
+}
+.footerglockdroit{
+    margin: 5rem;
+    
+    display: block;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.recadrer{
+    height: 7rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+.lorem2{
+    color: white;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    color: white;
+    font-family: "roboto";
+}
+.madarila{
+    margin-top: 2rem;
+}
+.Buybtn2{
+    background-color: white ;
+    color: #054C73;
+    width: 20%;
+    height: 3rem;
+    border-radius: 1rem;
+
+  border: none;
+}
+.espaces3{
+    height: 8rem;
+}
+.carre{
+    margin: 0rem;
+    
+    width: 75%;
+ margin-top: 18rem;
+ margin-right: 1rem;
+}
+.troisblock{
+    display: flex;
+    justify-content: space-evenly;
+        background-color: #ECECEB;
+
+    height: 4rem;
+}
+.les33{
+    margin-bottom: 1rem;
+    height: 17rem;
+    cursor: pointer;
+}
+
+}
+
+@media (min-width:550px) and (max-width:669px) {
+.img1{
+    background-image: url("scandinavian-interior-mockup-wall-decal-background\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50rem;
+}
+
+    footer{
+    background-color: #054C73;
+    
+    height: 32rem;
+    display: block;
+    
+    justify-content:center;
+    align-items: center;
+}
+.footerglockgauche{
+    margin: 5rem;
+    margin-bottom: 0rem;
+   align-items: center;
+}
+.footerglockdroit{
+    margin: 5rem;
+    
+    display: block;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.recadrer{
+    height: 5rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+.lorem2{
+    color: white;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    color: white;
+    font-family: "roboto";
+}
+.madarila{
+    margin-top: 2rem;
+}
+.Buybtn2{
+    background-color: white ;
+    color: #054C73;
+    width: 20%;
+    height: 3rem;
+    border-radius: 1rem;
+
+  border: none;
+}
+.espaces3{
+    height: 8rem;
+}
+.carre{
+    margin: 0rem;
+    
+    width: 85%;
+ margin-top: 20rem;
+ margin-right: 5rem;
+}
+.troisblock{
+    display: flex;
+    justify-content: space-evenly;
+        background-color: #ECECEB;
+margin-top: 1rem;
+    height: 4rem;
+}
+.les33{
+    margin-bottom: 1rem;
+    height: 12rem;
+    cursor: pointer;
+}
+.titre{
+    font-size:1.2rem;
+    font-family: "Roboto";
+}
+p{
+    font-size: 0.8rem;
+}
+.espaces{
+    height: 5rem;
+}
+}
+
+
+@media (min-width:449px) and (max-width:549px) {
+.img1{
+    background-image: url("scandinavian-interior-mockup-wall-decal-background\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30rem;
+}
+
+    footer{
+    background-color: #054C73;
+    
+    height: 45rem;
+    display: block;
+    
+    justify-content:center;
+    align-items: center;
+}
+.footerglockgauche{
+    margin: 5rem;
+    margin-bottom: 0rem;
+   align-items: center;
+   
+}
+.footerglockdroit{
+    margin: 5rem;
+    
+    display: block;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.recadrer{
+    height: 8rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+.lorem2{
+    color: white;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    color: white;
+    font-family: "roboto";
+}
+.madarila{
+    margin-top: 2rem;
+}
+.Buybtn2{
+    background-color: white ;
+    color: #054C73;
+    width: 30%;
+    height: 3rem;
+    border-radius: 1rem;
+
+  border: none;
+  
+}
+.espaces3{
+    height: 8rem;
+}
+.carre{
+    margin: 0rem;
+      height: 20rem;
+    width: 95%;
+ margin-top: 4rem;
+ margin-right: 0rem;
+}
+.troisblock{
+    display: flex;
+    justify-content: space-evenly;
+        background-color: #ECECEB;
+margin-top: 1rem;
+    height: 4rem;
+}
+.les33{
+    margin-bottom: 1rem;
+    height: 10rem;
+    cursor: pointer;
+}
+.titre{
+    font-size:1.2rem;
+    font-family: "Roboto";
+}
+p{
+    font-size: 0.8rem;
+}
+.navdroit{
+    background-color: #054C73;
+    margin-top: 0rem;
+    display: none;
+}
+.navgauche{
+     display: flex;
+     justify-content: flex-start;
+    align-items: center;
+    color: #054C73;
+        font-size: 2rem;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.lachari{
+    margin: 3em;
+}
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+   font-size: 1.5rem;
+    color: white;
+}
+.New{
+  width: 50%;
+ 
+}
+.paye{
+    display: flex;
+    justify-content: flex-end;
+   margin-top: 3rem;
+   margin-right: 3rem;
+
+}
+.paye2{
+    display: flex;
+    justify-content: flex-end;
+   margin-top: 2rem;
+   margin-left: 2rem;
+
+}
+.disparait{
+    display: none;
+}
+}
